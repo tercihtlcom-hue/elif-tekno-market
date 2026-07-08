@@ -244,13 +244,6 @@
             .stat-num{font-size:32px}
         }
         
-        /* Video */
-        .vid-sec{background:linear-gradient(135deg,var(--dark),#1e293b);padding:100px 5%;position:relative;overflow:hidden}
-        .vid-sec::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at 50% 50%,rgba(14,165,233,.08) 0%,transparent 50%)}
-        .vid-wrap{max-width:800px;margin:0 auto;position:relative;z-index:1}
-        .vid-wrap video{width:100%;border-radius:24px;box-shadow:0 40px 80px rgba(0,0,0,.4)}
-        @media(max-width:768px){.vid-sec{padding:60px 4%}.vid-wrap video{border-radius:16px}}
-        
         /* Turk Telekom */
         .tt-card{background:linear-gradient(135deg,var(--dark),#1e293b);border-radius:32px;padding:70px 60px;max-width:1000px;margin:0 auto;position:relative;overflow:hidden;box-shadow:0 40px 80px rgba(0,0,0,.12)}
         .tt-card::before{content:'';position:absolute;top:-120px;right:-80px;width:350px;height:350px;background:radial-gradient(circle,rgba(14,165,233,.3) 0%,transparent 70%);border-radius:50%}
@@ -392,7 +385,6 @@
         <a href="#hizmetler" onclick="toggleMobileNav()">Hizmetler</a>
         <a href="#urunler" onclick="toggleMobileNav()">Ürünler</a>
         <a href="#teknikservis" onclick="toggleMobileNav()">Teknik Servis</a>
-        <a href="#magaza" onclick="toggleMobileNav()">Mağazamız</a>
         <a href="#turktelekom" onclick="toggleMobileNav()">Türk Telekom</a>
         <a href="#westernunion" onclick="toggleMobileNav()">Western Union</a>
         <a href="#iletisim" onclick="toggleMobileNav()">İletişim</a>
@@ -554,21 +546,6 @@
                         <div class="stat-card"><div class="stat-num">%98</div><div class="stat-label">Müşteri Memnuniyeti</div></div>
                     </div>
                 </div>
-            </div>
-        </section>
-        
-        <!-- ===== STORE VIDEO ===== -->
-        <section class="vid-sec" id="magaza" aria-labelledby="vid-title">
-            <div class="sec-head light anim" style="position:relative;z-index:1;margin-bottom:50px;">
-                <h2 id="vid-title">Mağaza<span>mız</span></h2>
-                <div class="sec-line" style="background:linear-gradient(90deg,var(--teal),var(--purple));"></div>
-                <p>Yenimahalle'deki mağazamızdan kareler</p>
-            </div>
-            <div class="vid-wrap anim">
-                <video autoplay muted loop playsinline controls preload="metadata" poster="images/storefront.jpg" aria-label="Elif Tekno Market mağaza tanıtım videosu">
-                    <source src="video/0706.mp4" type="video/mp4">
-                    <p>Tarayıcınız video oynatmayı desteklemiyor. <a href="video/0706.mp4">Videoyu indirmek için tıklayın</a>.</p>
-                </video>
             </div>
         </section>
         
